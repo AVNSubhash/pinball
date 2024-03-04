@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinball Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="welcome-page">
+        <h1>Welcome to Pinball Game</h1>
+        <button id="start-button">Start Game</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <div id="ball"></div>
+        <div id="paddle"></div>
+        <!-- Add more elements for obstacles, targets, etc. -->
+    </div>
+
+    <div id="game-over-popup" style="display: none;">
+        <div class="popup-content">
+            <h2>Game Over</h2>
+            <p>Score: <span id="score">0</span></p>
+            <button id="restart-button">Restart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
